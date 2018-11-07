@@ -71,13 +71,15 @@ class Array {
 }
 Array.SIZE_RATIO = 3;
 
-(function main() {
-  const arr = new Array();
+// (function main() {
+//   const arr = new Array();
 
-  arr
-    .push(5)
-    .push(3342)
-    .push(55324);
-  arr.remove(2);
-  console.log(arr.length);
-})();
+//   arr
+//     .push(5)
+//     .push(3342)
+//     .push(55324);
+//   arr.remove(2);
+//   console.log(arr.length);
+// })();
+
+module.exports = Array;
